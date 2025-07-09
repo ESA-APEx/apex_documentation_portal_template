@@ -1,8 +1,6 @@
 # APEx Documentation Portal
 
-Welcome to the APEx Documentation Portal! This repository contains the source files and setup instructions for building
-and maintaining the APEx project documentation using Quarto. Whether you're a contributor or a user, you'll find
-everything you need to get started, preview changes, and ensure high-quality documentation.
+Welcome to the APEx Documentation Portal! This repository contains the source files and setup instructions for building and maintaining the APEx project documentation using Quarto. Whether you're a contributor or a user, you'll find everything you need to get started, preview changes, and ensure high-quality documentation.
 
 ## Getting Started
 
@@ -50,13 +48,16 @@ This will start a local server and open the documentation in your browser. Any c
 - [Quarto Reference](https://quarto.org/docs/reference/)
 - [Python Virtual Environments](https://docs.python.org/3/library/venv.html)
 
+
+## Automated Deployment with GitHub Actions
+
+Each commit to the `main` branch automatically triggers a new deployment using GitHub Actions. During this process, the documentation portal is built and final quality checks are performed to ensure everything is up to standard. You can monitor the deployment progress and review logs on the **Actions** page of your GitHub repository.
+
 ## Code Quality
 
 ### Pre-commit Hooks
 
-This repository uses [`pre-commit`](https://pre-commit.com/) to manage code quality and consistency at commit time.
-`pre-commit` is a CLI tool and framework for managing Git pre-commit hooks. It helps with quick quality checks (such as
-linting and syntax checks), code formatting, and much more.
+This repository uses [`pre-commit`](https://pre-commit.com/) to manage code quality and consistency at commit time. `pre-commit` is a CLI tool and framework for managing Git pre-commit hooks. It helps with quick quality checks (such as linting and syntax checks), code formatting, and much more.
 
 The pre-commit hooks in this repository perform the following checks before each commit:
 
