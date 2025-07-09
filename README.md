@@ -48,6 +48,13 @@ This will start a local server and open the documentation in your browser. Any c
 - [Quarto Reference](https://quarto.org/docs/reference/)
 - [Python Virtual Environments](https://docs.python.org/3/library/venv.html)
 
+### Branch Protection and Pull Requests
+
+By default, the `main` branch is protected to ensure the stability and quality of the documentation.
+All changes must be made through a pull request (PR) from a separate branch.
+After submitting a PR, automated quality checks will run via GitHub Actions.
+Only PRs that pass these checks and receive approval from a team member can be merged into the `main` branch.
+Once merged, the updates are published to the online documentation portal.
 
 ## Automated Deployment with GitHub Actions
 
