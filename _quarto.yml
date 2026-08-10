@@ -10,8 +10,6 @@ website:
     type: textbox
     copy-button: true
 
-  navbar:
-    pinned: true
   page-navigation: true
   bread-crumbs: true
 
@@ -21,7 +19,7 @@ website:
     style: "floating"
     collapse-level: 2
     contents:
-      - href: docs/index.qmd
+      - href: index.qmd
         text: Welcome
 
 format:

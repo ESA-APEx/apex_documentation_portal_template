@@ -33,4 +33,18 @@ print("Hello, Quarto!")
 
 ---
 
+## About this template
+
+This template uses a **custom ESA header** (defined in `html/esa-header.html` and included via `_quarto.yml`) instead of Quarto's built-in navbar. As a result, the default Quarto header is intentionally hidden through the following rule in `css/components/_page.scss`:
+
+```scss
+#quarto-header {
+  display: none;
+}
+```
+
+The `navbar` entry in `_quarto.yml` is not rendered visually and should not be used to avoid confusion.
+
+---
+
 Happy documenting with Quarto!

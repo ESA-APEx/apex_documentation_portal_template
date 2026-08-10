@@ -15,6 +15,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+/* Intentionally hidden: the ESA header (html/esa-header.html) replaces Quarto's built-in navbar. */
 #quarto-header {
   display: none;
 }
